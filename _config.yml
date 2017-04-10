@@ -1,0 +1,21 @@
+# Site settings
+title: Getting My Code On
+header-img: img/home-bg.png
+email: lucketta@umich.edu
+copyright_name: lucketta
+description: > # this means to ignore newlines until "baseurl:"
+  My journey as I arrive full circle back to my first love of coding!
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: aelucky
+github_username:  lucketta
+learn_profile: lucketta
+email_username: lucketta@umich.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
