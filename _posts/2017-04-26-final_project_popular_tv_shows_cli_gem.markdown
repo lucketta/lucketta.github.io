@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Final Project: Popular TV Shows CLI Gem"
-date:   2017-04-26 05:18:53 +0000
+date:   2017-04-26 01:18:54 -0400
 ---
 
 
@@ -19,7 +19,7 @@ Boy, was I wrong. As it turns out, not every page is the same. Don't freak out o
 
 My next issue, was being able to print with multiple colums. 49 items in a list is a lonnnnngggg list...and not so pretty. So, after googling around, installing random people's gem's, I found a way to do it and got this:
 
-![](http://imgur.com/873Vpkw)
+![](http://i.imgur.com/Ne0XxYW.png)
 
 The last issue, which I still need to fix, but will definitely need some help with, is how to optimize my code so that it runs faster. Waiting for the list to populate takes wayyyyyy to long. 
 
