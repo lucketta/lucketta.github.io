@@ -7,7 +7,7 @@ date:   2017-04-26 01:18:54 -0400
 
 As a TV lover, this project was a great opportunity to try to bridge my two passions: coding and television. As someone who watches a lot of TV, it can be hard to find the next great show to watch. On the other hand, there are a lot of options out there, so someone in the market for a new TV show may not know what to watch next. This sparked my idea for a CLI gem:
 
-### Popular TV Shows!
+## Popular TV Shows!
 
 TV Guide has a great list of the [Most Popular TV Shows](http://www.tvguide.com/tvshows/) on television/streaming services. With 49 options, and specific TV show profiles, this was the perfect website to scrape.
 
