@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Setting up Rails BackEnd/ReactJS FrontEnd Project and Heroku"
-date:       2017-12-11 18:51:40 +0000
+date:       2017-12-11 13:51:41 -0500
 permalink:  setting_up_rails_backend_reactjs_frontend_project_and_heroku
 ---
 
 
 Starting a new project is exciting, but can also feel like a monumental task when trying to pair different languages and frameworks together. Today, I will show you the steps and code I used to successfully create a Rails backend and ReactJS frontend, as well as the settings needed to make sure your project compiles and can be pushed up to Heroku.
 
-There were many resources on the internet for different aspects of this process, but no one had put them into an easy list to get started quickly. 
+There were many resources on the internet for different aspects of this process, but there wasn't a guide that easily listed each step and helped with the somewhat difficult task of pushing to Heroku. Here is what I did and I hope it works for you!
 
 
 **Step 1: New Rails Project**
@@ -20,7 +20,7 @@ You will need to create a new Ruby on Rails project. Note: Heroku doesn't suppor
  
 **Step 2: Set up Git Repo**
  
-Create a git repo for this project for code management. An easy google search will show you how to do this. Usually, I create a new repo at Github and connect it to my local environment.
+Create a new git repo for this project for code management. An easy google search will show you how to do this. Usually, I create a new repo on my Github account then connect it to my local environment.
  
 
 **Step 3: ReactJS FrontEnd**
