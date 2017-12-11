@@ -27,18 +27,22 @@ Create a new git repo for this project for code management. An easy google searc
 
 Our frontend will be using the ReactJS framework. To install:
 
-`npm install -g create-react-app`
+```
+npm install -g create-react-app
+```
 
 Then create your new ReactJS project with your own name for <my-app>:
 
-`create-react-app my-app`
+```
+create-react-app my-app
+```
 
 
 **Step 4: Package.json Client Side Port Change**
 
 Because our Rails app will act like an API, we will run the client side on port:3001 and the backend on port:3000 and start them up together. So, in our package.json file in the** React client folder**, add the following line:
 
-    `"proxy": "http://localhost:3001"`
+	"proxy": "http://localhost:3001"
 		
 		
 **Step 5: Procfiles**
@@ -47,13 +51,17 @@ We are going to create two Procfiles (for Heroku) to fire up both servers togeth
 
 Create a new file in the root directory of your project called >> Procfile:
 
-    `web: bundle exec rails s`
+```
+web: bundle exec rails s
+```
 		
 	
 Create a new file in the root directory of your project called >> Procfile.dev:
 
-    `web: cd client && PORT=3000 npm start
-      api: PORT=3001 && bundle exec rails s`
+```
+web: cd client && PORT=3000 npm start
+api: PORT=3001 && bundle exec rails s
+```
 			
 
 **Step 6: Foreman**
@@ -116,7 +124,7 @@ You can rename your project by using the command if you need to:
 `heroku apps:rename newname`
 
 
-**Step 10: **
+**Step 10: Heroku Config and Buildpack settings**
 
 The next few commands are going to set a few options to make sure when you deploy to Heroku it is successfull. We will also be setting the order of our buildpacks for node and ruby:
 
@@ -132,7 +140,9 @@ heroku buildpacks:add heroku/ruby --index 2
 
 Make sure that you have pushed all new changes to your git repo. Then push your new app to Heroku:
 
-`git push heroku master`
+```
+git push heroku master
+```
 
 
 **Step 12:  All Done**
