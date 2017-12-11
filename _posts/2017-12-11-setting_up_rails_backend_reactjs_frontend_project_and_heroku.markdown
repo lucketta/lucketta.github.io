@@ -58,7 +58,7 @@ Create a new file in the root directory of your project called >> Procfile.dev:
 
 **Step 6: Foreman**
 
-Install the gem: Foreman, bundle install/update. This will allow us to fire up both the server and client side code running on different ports using the commands from our Procfile.
+Install the Foreman gem, bundle install/update. This will allow us to fire up both the server and client side code running on different ports using the commands from our Procfiles.
 
 
 **Step 7: Start.rake**
@@ -111,7 +111,7 @@ heroku apps:create [insert name here]
 
 **Step 9a: Rename Heroku Project**
 
-You can rename your project by using the command: 
+You can rename your project by using the command if you need to: 
 
 `heroku apps:rename newname`
 
@@ -120,7 +120,7 @@ You can rename your project by using the command:
 
 The next few commands are going to set a few options to make sure when you deploy to Heroku it is successfull. We will also be setting the order of our buildpacks for node and ruby:
 
-Run each commands separately: 
+Run each command separately: 
 ```
 heroku config:set NPM_CONFIG_PRODUCTION=false
 heroku buildpacks:add heroku/nodejs --index 1
@@ -137,6 +137,6 @@ Make sure that you have pushed all new changes to your git repo. Then push your 
 
 **Step 12:  All Done**
 
-That should be it. Do a happy dance because watching your app push to Heroku is pretty intense, especially after many failed attempts. I hope this guide helps you get overt his hump!
+That should be it. Do a happy dance because watching your app push to Heroku is pretty intense, especially after many failed attempts. I hope this guide helps you get over this hump!
 
 Happy Coding!
